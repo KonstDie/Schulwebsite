@@ -1,0 +1,32 @@
+body{
+	background-color:black;
+	color:white;
+	font-family:arial;
+}
+
+h1{
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+.link {
+	padding:1vw;
+	transition: transform 0.1s ease;
+}
+.link:hover{
+	backgroundcolor:rgba(142,142,142,0.3)
+	transform: scale(1.5);
+}
+
+.logo{
+    width: 10vw;
+    height:auto;
+}
+
+.logo_div{
+    display:flex;
+    align-items: right;
+}
