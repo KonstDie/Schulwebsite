@@ -1,25 +1,38 @@
 body{
-	background-color:grey;
-	color:black;
+	background-color:black;
+	color:white;
 	font-family:arial;
 }
 h1{
 	text-align:center;
+	font-size: 8vw;
 }
-
 h2{
+	font-size: 3vw;
+}
+.text{
 	text-align:center;
 }
-
-.link {
-	padding:1vw;
-	transition: transform 0.1s ease;
+p{
+	font-size: 3vw;
 }
 
-.link:hover{
-	background-color:rgba(142,142,142,0.3)
-	transform; scale:(1.5);
+.link{
+	display: inline-block;
+	border-radius: 0.75vw;
+	transition: transform 0.5s ease;
+	padding-left: 0.75vw;
+	padding-right: 0.75vw;
+	padding-top: 0.5vh;
+	padding-bottom: 0.25vh;
 }
+ .link:hover{
+	border-radius: 0.75vw;
+	transform:scale(1.2)
+
+ }
+
+
 
 .logo{
     width: 10vw;
@@ -29,4 +42,31 @@ h2{
 .logo_div{
     display:flex;
     align-items: right;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.stichpunkt{
+	
+	margin-left: 3vw;
+}
+
+.row1{
+	display: inline-block;
+	margin: 3vw 2vw;
+}
+.row2{
+	display: inline-block;
+	margin: 3vw 3.5vw;
+}
+.row3{
+	display: inline-block;
+	margin: 3vw 2.75vw;
+}
+.row4{
+	display: inline-block;
+	margin: 3vw 4vw;
 }
