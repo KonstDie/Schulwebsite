@@ -1,14 +1,14 @@
 body{
 	background-color:black;
 	color:white;
-	font-family:arial;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
 	text-align:center;
 	font-size: 8vw;
 }
 h2{
-	font-size: 3vw;
+	font-size: 5vw;
 }
 .text{
 	text-align:center;
@@ -69,4 +69,45 @@ a{
 .row4{
 	display: inline-block;
 	margin: 3vw 4vw;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.Informatik{
+	background-color: rgba(142,142,142,0.4);
+	height: 20vw;
+	width: 20vw;
+	border-radius: 2.5vw;
+	transition: height 0.5s ease;
+}
+
+.Informatik_IMG{
+	width: 15vw;
+	height: 15vw;
+	display:inline-block;
+	align-items: center;
+	padding: 2.5vw;
+}
+.Informatik:hover{
+	height: 25vw;
+}
+.Informatik:hover .Informatik_text{
+	opacity:1;
+	
+
+}
+
+.Informatik_text{
+	color: white;
+	display:flex;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.Tabelle{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap:7vw;
+	margin-left: 10vw;
+	margin-right:10vw;
 }
