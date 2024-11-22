@@ -113,12 +113,12 @@ a{
 
 .row{
 	font-size: 3vw;
+	transition: background-color 0.5s ease;
 }
 
 .row1{
 	font-size: 3.5vw;
 	font-weight: bold;
-	transition: background-color 0.5s ease;
 }
 
 .row1:hover .row{
