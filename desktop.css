@@ -108,3 +108,8 @@ a{
 .row{
 	font-size: 3vw;
 }
+
+.row1{
+	font-size: 3.5vw;
+	font-weight: bold;
+}
