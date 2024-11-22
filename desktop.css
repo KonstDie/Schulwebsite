@@ -162,7 +162,7 @@ a{
 	display: block;
 	margin:1vw;
 	border-radius: 1vw;
-	transition: 0.3s;
+	transition: 0.3s ease-in-out;
   }
   
   .side-menu a:hover {
