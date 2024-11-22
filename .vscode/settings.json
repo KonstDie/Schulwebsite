@@ -1,4 +1,4 @@
 {
     "auto-commit.enabled": true,
-    "auto-commit.delay": 300000
+    "auto-commit.delay": 3000
 }
