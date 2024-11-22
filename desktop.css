@@ -100,9 +100,15 @@ a{
 .Tabelle_Informatik{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	margin-left: 10vw;
-	margin-right: 10vw;
+	margin-left: 15vw;
+	margin-right: 15vw;
 	gap:3vw;
+}
+
+.Tabelle_Informatik::after{
+	content: "";
+	display: block;
+	height: 2vh;
 }
 
 .row{
