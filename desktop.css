@@ -37,6 +37,7 @@ p{
 .logo{
     width: 10vw;
     height:auto;
+	position:fixed;
 }
 .logo_div{
     display:flex;
