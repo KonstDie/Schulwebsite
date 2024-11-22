@@ -1,44 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-        <link rel="Stylesheet" href="index_style.css" />
-        <!-- Handy im Hochformat -->
-        <link rel="stylesheet" href="handy_portrait.css" media="screen and (max-width: 767px) and (orientation: portrait)">
-        
-        <!-- Handy im Querformat -->
-        <link rel="stylesheet" href="handy_landscape.css" media="screen and (max-width: 767px) and (orientation: landscape)">
-        
-        <!-- Tablet im Hochformat -->
-        <link rel="stylesheet" href="tablet_portrait.css" media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)">
-        
-        <!-- Tablet im Querformat -->
-        <link rel="stylesheet" href="tablet_landscape.css" media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)">
-        
-        <!-- PC (Desktop) -->
-        <link rel="stylesheet" href="pc.css" media="screen and (min-width: 1024px)">
-      
-	<meta charset="utf-8" />
-	</head>
-	<body>
-	<div class="logo_div">
-	    <a href="index.html"><img src="IMG/Johanneum_Logo_negate.png" class="logo"/></a>
-	</div>
-	<h1>Kunst AG</h1>
-	<div class="stichpunkt">
-        <h2 class="row1">Leitung:</h2>
-        <p class="row1">Martina Hinney</p>
+  <head>
+    <link 
+      rel="stylesheet" 
+      href="mobile_portrait.css"
+      media="only screen and (hover: none) and (pointer: coarse) and (orientation: portrait)"
+      />
+
+    <link 
+      rel="stylesheet" 
+      href="mobile_landscape.css"
+      media="only screen and (hover: none) and (pointer: coarse) and (orientation: landscape)"
+      />
+
+    <link 
+      rel="stylesheet" 
+      href="desktop.css"
+      media="only screen and (hover: hover) and (pointer: fine)"
+      />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="logo_div">
+    <a href="index.html">
+        <img src="IMG/Johanneum_Logo_negate.png" class="logo"/>
+    </a>
     </div>
-    <div class="stichpunkt">
-        <h2 class="row2">Wer?</h2>
-        <p class="row2">5-8 Klasse</p>
+
+    <h1>Informatik AG</h1>
+    <div class="Tabelle_Informatik">
+      <td class="stichpunkt">
+        <div class="row1">Leitung:</div>
+        <div class="row2">Oliver Mayer</div>
+    </td>
+      <td class="stichpunkt">
+        <div class="row1">Wer?</div>
+        <div class="row2">5-Q2 Klässler</div>
+      </td>
+      <td class="stichpunkt">
+        <div class="row1">Wann?</div>
+        <div class="row2">Montag, 13:12 - 14:20 Uhr</div>
+      </td>
+      <td class="stichpunkt">
+        <div class="row1">Wo?</div>
+        <div class="row2">C1</div>
+      </td>
     </div>
-    <div class="stichpunkt">
-        <h2 class="row3">Wann?</h2>
-        <p class="row3">Dienstag, 13:12 - 14:20 Uhr</p>
-    </div>
-    <div class="stichpunkt">
-        <h2 class="row4">Wo?</h2>
-        <p class="row4">Raum A302</p>
-    </div>
-	</body>
+  </body>
 </html>
