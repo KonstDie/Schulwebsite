@@ -3,14 +3,6 @@ body{
 	color:white;
 	
 }
-.gluten-body {
-  font-family: "Gluten", cursive;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
 h1{
 	text-align:center;
 	font-size: 8vw;
