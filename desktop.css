@@ -135,17 +135,31 @@ a{
 	left: 0;
 	background-color: #111;
 	padding-top: 20px;
-  }
+}
   
-  .sidemenu a {
+.sidemenu a {
 	padding: 16px;
 	text-decoration: none;
 	font-size: 18px;
 	color: white;
 	display: block;
+}
+  
+.sidemenu a:hover {
+	background-color: #444;
+ }
+  
+
+ .close-btn {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	font-size: 36px;
+	cursor: pointer;
+	color: white;
   }
   
-  .sidemenu a:hover {
-	background-color: #444;
+  .close-btn:hover {
+	color: #f1f1f1;
   }
   
