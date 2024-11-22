@@ -156,7 +156,8 @@ a{
 	font-size: 18px;
 	color: white;
 	display: block;
-
+	margin:1vw;
+	border-radius: 1vw;
 	transition: 0.3s;
   }
   
