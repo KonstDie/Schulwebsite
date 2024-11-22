@@ -118,11 +118,13 @@ a{
 	transition: background-color 0.5s ease;
 	padding:1vw;
 	border-radius: 1vw;
+	cursor: default;
 }
 
 .row1{
 	font-size: 3.5vw;
 	font-weight: bold;
+	cursor: default;
 }
 
 .row1:hover + .row2{
