@@ -1,5 +1,5 @@
 body{
-	background-color:green;
+	background-color:rgb(0, 0, 30);
 	color:white;
 	font-family:arial;
 }
@@ -92,6 +92,25 @@ a{
 .Tabelle_Informatik{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	margin-left: 10vw;
-	margin-right: 10vw;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	gap:3vw;
+}
+
+.Tabelle_Informatik::after{
+	content: "";
+	display: block;
+	height: 2vh;
+}
+
+.row2{
+	font-size: 3vw;
+	transition: background-color 0.5s ease;
+	padding:1vw;
+	border-radius: 1vw;
+}
+
+.row1{
+	font-size: 3.5vw;
+	font-weight: bold;
 }
