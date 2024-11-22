@@ -102,4 +102,9 @@ a{
 	grid-template-columns: repeat(2,1fr);
 	margin-left: 10vw;
 	margin-right: 10vw;
+	gap:3vw;
+}
+
+.row{
+	font-size: 3vw;
 }
