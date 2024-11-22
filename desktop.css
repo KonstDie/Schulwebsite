@@ -1,7 +1,15 @@
 body{
 	background-color:rgb(0,0,30);
 	color:white;
-	font-family:arial;
+	
+}
+.gluten-body {
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 h1{
 	text-align:center;
@@ -55,6 +63,7 @@ a{
 	background-color: rgba(142,142,142,0.4);
 }
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
 .AG{
 	background-color: rgba(142,142,142,0.4);
 	height: 20vw;
