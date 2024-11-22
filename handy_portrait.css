@@ -1,5 +1,5 @@
 body{
-	background-color:rgb(0, 0, 30);
+	background-color:#0f172a;
 	color:white;
 	font-family:arial;
 }
@@ -19,7 +19,6 @@ p{
 .link{
 	display: inline-block;
 	border-radius: 0.75vw;
-	transition: transform 0.5s ease;
 	padding-left: 0.75vw;
 	padding-right: 0.75vw;
 	padding-top: 0.5vh;
@@ -49,37 +48,35 @@ a{
 }
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 .AG{
-	background-color: rgba(142,142,142,0.4);
-	height: 20vw;
-	width: 20vw;
+	background-color: rgba(255, 255, 255, 0.08);
+	width: 25vw;
 	border-radius: 2.5vw;
-    height:25vw
+    height:32vw;
 }
 .AG_IMG{
-	width: 15vw;
-	height: 15vw;
-	display:inline-block;
-	align-items: center;
+	width: 20vw;
+	height: 20vw;
 	padding: 2.5vw;
+	
 }
 .AG_text{
 	color: white;
-	font-size: 3vw;
-	display:flex;
-	justify-content: center;
-	opacity: 1;
+	font-size: 4vw;
+	text-align: center;
 }
 .Tabelle{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	gap:7vw;
+	gap:8vw 0vw;
 	margin-left: 10vw;
-	margin-right:10vw;
+	margin-right: 10vw;
+	justify-items: center;
+	column-width: 20vw;
 }
 .Tabelle::after{
 	content: "";
 	display: block;
-	height: 1vh;
+	height: 20vh;
 }
 .nunito-body {
   font-family: "Nunito", sans-serif;
