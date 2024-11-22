@@ -166,3 +166,8 @@ a{
 .close{
 	border-radius: 1vw;
 }
+
+.close:active .sidemenu{
+	opacity: 0;
+	
+}
