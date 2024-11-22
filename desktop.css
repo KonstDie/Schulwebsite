@@ -162,4 +162,7 @@ a{
   .close-btn:hover {
 	color: #f1f1f1;
   }
-  
+
+.close:click .sidemenu{
+	opacity:0;
+}
