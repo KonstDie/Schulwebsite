@@ -126,3 +126,26 @@ a{
 .row1:hover + .row2{
 	background-color: rgba(142,142,142,0.4);
 }
+
+.sidemenu {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	padding-top: 20px;
+  }
+  
+  .sidemenu a {
+	padding: 16px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	display: block;
+  }
+  
+  .sidemenu a:hover {
+	background-color: #444;
+  }
+  
