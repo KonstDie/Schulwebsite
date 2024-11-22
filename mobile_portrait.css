@@ -6,6 +6,7 @@ body{
 h1{
 	text-align:center;
 	font-size: 8vw;
+	margin-top: 3vh;
 }
 h2{
 	font-size: 5vw;
@@ -30,6 +31,7 @@ p{
 .logo{
     width: 10vw;
     height:auto;
+	position:fixed;
 }
 .logo_div{
     display:flex;
@@ -47,7 +49,7 @@ a{
 }
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 .AG{
-	background-color: rgba(255, 255, 255, 0.08);
+	background-color: rgba(142,142,142,0.4);
 	width: 25vw;
 	border-radius: 2.5vw;
     height:32vw;
