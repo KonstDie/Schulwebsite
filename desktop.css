@@ -118,4 +118,9 @@ a{
 .row1{
 	font-size: 3.5vw;
 	font-weight: bold;
+	transition: background-color 0.5s ease;
+}
+
+.row1:hover .row{
+	background-color: rgba(142,142,142,0.4);
 }
