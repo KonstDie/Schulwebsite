@@ -64,10 +64,10 @@ a {
   height: 34vw;
 }
 .AG_IMG {
-	width: 15vw;
-	height: 15vw;
-	padding: 6vw;
-	padding-bottom: 4vw;
+  width: 15vw;
+  height: 15vw;
+  padding: 6vw;
+  padding-bottom: 4vw;
 }
 .AG_text {
   color: #d8e2ef;
@@ -120,8 +120,8 @@ a {
   font-weight: bold;
 }
 .home {
-	font-weight: bold;
-  }
+  font-weight: bold;
+}
 .menu-checkbox {
   display: none;
 }
@@ -175,6 +175,6 @@ a {
   font-weight: bold;
 }
 @font-face {
-	font-family: "Gluten-Regular";
-	src: url("schrift/Gluten-Regular.ttf") format("truetype");
-  }
+  font-family: "Gluten-Regular";
+  src: url("schrift/Gluten-Regular.ttf") format("truetype");
+}
