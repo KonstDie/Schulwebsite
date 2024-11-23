@@ -6,6 +6,10 @@ body {
 h1 {
   text-align: center;
   font-size: 8vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+  margin-top: 3vh;
 }
 h2 {
   font-size: 5vw;
@@ -32,6 +36,9 @@ p {
 .logo {
   width: 10vw;
   height: auto;
+  position: fixed;
+  margin-left: 2vw;
+  margin-top: 2vw;
 }
 .logo_div {
   display: flex;
@@ -47,7 +54,7 @@ a {
   border-radius: 1vw;
   background-color: rgba(142, 142, 142, 0.4);
 }
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 .AG {
   background-color: rgba(142, 142, 142, 0.4);
   height: 20vw;
@@ -74,13 +81,13 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 7vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 .Tabelle::after {
   content: "";
   display: block;
-  height: 1vh;
+  height: 5vh;
 }
 .nunito-body {
   font-family: "Nunito", sans-serif;
@@ -110,7 +117,7 @@ a {
 }
 
 .row1 {
-  font-size: 3.5vw;
+  font-size: 4.5vw;
   font-weight: bold;
 }
 
@@ -123,25 +130,27 @@ a {
 
 .side-menu {
   height: 100%;
-  width: 250px;
+  width: 35vw;
   position: fixed;
   top: 0;
-  left: -250px;
+  left: -35vw;
   background-color: rgb(0, 0, 20);
   transition: 0.5s ease-in-out;
   z-index: 1000;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-bottom-right-radius: 2vw;
+  border-top-right-radius: 2vw;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .menu-links {
-  padding-top: 60px;
+  padding-top: 10vw;
 }
 
 .side-menu a {
-  padding: 15px 25px;
+  padding: 1vw 1vw;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 3vw;
   color: white;
   display: block;
   margin: 1vw;
@@ -151,9 +160,9 @@ a {
 
 .close-btn {
   position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 36px;
+  top: 1vw;
+  right: 3vw;
+  font-size: 7.5vw;
   color: white;
   cursor: pointer;
 }
@@ -169,9 +178,7 @@ a {
 .home {
   font-weight: bold;
 }
-.nunito-body {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
+@font-face {
+	font-family: "Gluten-Regular";
+	src: url("schrift/Gluten-Regular.ttf") format("truetype");
+  }

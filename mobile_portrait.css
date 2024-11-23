@@ -1,11 +1,14 @@
 body {
   background-color: rgb(0, 0, 30);
   color: white;
-  font-family: 'Gluten-Regular', Arial, sans-serif;
+  font-family: "Gluten-Regular", Arial, sans-serif;
 }
 h1 {
   text-align: center;
   font-size: 8vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
   margin-top: 3vh;
 }
 h2 {
@@ -29,9 +32,10 @@ p {
   border-radius: 0.75vw;
 }
 .logo {
-  width: 10vw;
+  width: 15vw;
   height: auto;
   position: fixed;
+  margin-left: 2vw;
 }
 .logo_div {
   display: flex;
@@ -47,17 +51,18 @@ a {
   border-radius: 1vw;
   background-color: rgba(142, 142, 142, 0.4);
 }
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 .AG {
   background-color: rgba(142, 142, 142, 0.4);
-  width: 25vw;
-  border-radius: 2.5vw;
-  height: 32vw;
+  width: 27vw;
+  border-radius: 4vw;
+  height: 34vw;
 }
 .AG_IMG {
-  width: 20vw;
-  height: 20vw;
-  padding: 2.5vw;
+	width: 15vw;
+	height: 15vw;
+	padding: 6vw;
+	padding-bottom: 4vw;
 }
 .AG_text {
   color: white;
@@ -68,8 +73,8 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8vw 0vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   justify-items: center;
   column-width: 20vw;
 }
@@ -109,31 +114,34 @@ a {
   font-size: 4.5vw;
   font-weight: bold;
 }
+.home {
+	font-weight: bold;
+  }
 .menu-checkbox {
   display: none;
 }
 
 .side-menu {
   height: 100%;
-  width: 250px;
+  width: 37.5vw;
   position: fixed;
   top: 0;
-  left: -250px;
+  left: -37.5vw;
   background-color: rgb(0, 0, 20);
   transition: 0.5s ease-in-out;
   z-index: 1000;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-bottom-right-radius: 5vw;
+  border-top-right-radius: 5vw;
 }
 
 .menu-links {
-  padding-top: 60px;
+  padding-top: 10vw;
 }
 
 .side-menu a {
-  padding: 15px 25px;
+  padding: 2vw 3vw;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 5vw;
   color: white;
   display: block;
   margin: 1vw;
@@ -143,9 +151,9 @@ a {
 
 .close-btn {
   position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 36px;
+  top: 1vw;
+  right: 3vw;
+  font-size: 10vw;
   color: white;
   cursor: pointer;
 }
@@ -161,3 +169,7 @@ a {
 .home {
   font-weight: bold;
 }
+@font-face {
+	font-family: "Gluten-Regular";
+	src: url("schrift/Gluten-Regular.ttf") format("truetype");
+  }
