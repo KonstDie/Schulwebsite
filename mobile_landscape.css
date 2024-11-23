@@ -1,87 +1,86 @@
-body{
-	background-color:rgb(0, 0, 30);
-	color:white;
-	font-family:arial;
+body {
+  background-color: rgb(0, 0, 30);
+  color: white;
+  font-family: 'Gluten-Regular', Arial, sans-serif;
 }
-h1{
-	text-align:center;
-	font-size: 8vw;
+h1 {
+  text-align: center;
+  font-size: 8vw;
 }
-h2{
-	font-size: 5vw;
+h2 {
+  font-size: 5vw;
 }
-.text{
-	text-align:center;
+.text {
+  text-align: center;
 }
-p{
-	font-size: 3vw;
+p {
+  font-size: 3vw;
 }
-.link{
-	display: inline-block;
-	border-radius: 0.75vw;
-	transition: transform 0.5s ease;
-	padding-left: 0.75vw;
-	padding-right: 0.75vw;
-	padding-top: 0.5vh;
-	padding-bottom: 0.25vh;
+.link {
+  display: inline-block;
+  border-radius: 0.75vw;
+  transition: transform 0.5s ease;
+  padding-left: 0.75vw;
+  padding-right: 0.75vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.25vh;
 }
- .link:hover{
-	border-radius: 0.75vw;
-	transform:scale(1.2)
-
- }
-.logo{
-    width: 10vw;
-    height:auto;
+.link:hover {
+  border-radius: 0.75vw;
+  transform: scale(1.2);
 }
-.logo_div{
-    display:flex;
-    align-items: right;
+.logo {
+  width: 10vw;
+  height: auto;
 }
-a{
-	text-decoration: none;
-	color:white;
+.logo_div {
+  display: flex;
+  align-items: right;
 }
-.stichpunkt{
-	width:10vw;
-	height: 10vw;
-	border-radius: 1vw;
-	background-color: rgba(142,142,142,0.4);
+a {
+  text-decoration: none;
+  color: white;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-.AG{
-	background-color: rgba(142,142,142,0.4);
-	height: 20vw;
-	width: 20vw;
-	border-radius: 2.5vw;
-	transition: height 0.2s ease;
-    height:25vw
+.stichpunkt {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 1vw;
+  background-color: rgba(142, 142, 142, 0.4);
 }
-.AG_IMG{
-	width: 15vw;
-	height: 15vw;
-	display:inline-block;
-	align-items: center;
-	padding: 2.5vw;
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.AG {
+  background-color: rgba(142, 142, 142, 0.4);
+  height: 20vw;
+  width: 20vw;
+  border-radius: 2.5vw;
+  transition: height 0.2s ease;
+  height: 25vw;
 }
-.AG_text{
-	color: white;
-	font-size: 3vw;
-	display:flex;
-	justify-content: center;
-	opacity: 1;
+.AG_IMG {
+  width: 15vw;
+  height: 15vw;
+  display: inline-block;
+  align-items: center;
+  padding: 2.5vw;
 }
-.Tabelle{
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	gap:7vw;
-	margin-left: 10vw;
-	margin-right:10vw;
+.AG_text {
+  color: white;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
 }
-.Tabelle::after{
-	content: "";
-	display: block;
-	height: 1vh;
+.Tabelle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.Tabelle::after {
+  content: "";
+  display: block;
+  height: 1vh;
 }
 .nunito-body {
   font-family: "Nunito", sans-serif;
@@ -89,32 +88,90 @@ a{
   font-weight: 100;
   font-style: normal;
 }
-.Tabelle_Informatik{
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	margin-left: 20vw;
-	margin-right: 20vw;
-	gap:3vw;
+.Tabelle_Informatik {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 20vw;
+  margin-right: 20vw;
+  gap: 3vw;
 }
 
-.Tabelle_Informatik::after{
-	content: "";
-	display: block;
-	height: 2vh;
+.Tabelle_Informatik::after {
+  content: "";
+  display: block;
+  height: 2vh;
 }
 
-.row2{
-	font-size: 3vw;
-	transition: background-color 0.5s ease;
-	padding:1vw;
-	border-radius: 1vw;
+.row2 {
+  font-size: 3vw;
+  transition: background-color 0.5s ease;
+  padding: 1vw;
+  border-radius: 1vw;
 }
 
-.row1{
-	font-size: 3.5vw;
-	font-weight: bold;
+.row1 {
+  font-size: 3.5vw;
+  font-weight: bold;
 }
 
-.home{
-	font-weight: bold;
+.home {
+  font-weight: bold;
+}
+.menu-checkbox {
+  display: none;
+}
+
+.side-menu {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: rgb(0, 0, 20);
+  transition: 0.5s ease-in-out;
+  z-index: 1000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.menu-links {
+  padding-top: 60px;
+}
+
+.side-menu a {
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  margin: 1vw;
+  border-radius: 1vw;
+  transition: 0.3s ease-in-out;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+#menu-toggle:checked ~ .side-menu {
+  left: 0;
+}
+
+.home {
+  font-weight: bold;
+}
+.nunito-body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
