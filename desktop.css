@@ -33,10 +33,10 @@ p{
  .link:hover{
 	border-radius: 0.75vw;
 	transform:scale(1.2)
-
  }
+ 
 .logo{
-    width: 10vw;
+    width: 8vw;
     height:auto;
 	position:fixed;
 }
@@ -157,22 +157,23 @@ a{
   .side-menu a {
 	padding: 15px 25px;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1.5vw;
 	color: white;
 	display: block;
 	margin:1vw;
 	border-radius: 1vw;
-	transition: 0.3s ease-in-out;
+	transition: 0.5s ease-in-out;
   }
   
   .side-menu a:hover {
 	background-color: #444;
+	font-size: 2vw;
   }
   
   .close-btn {
 	position: absolute;
-	top: 10px;
-	right: 25px;
+	top: 1vw;
+	right: 2.5vw;
 	font-size: 36px;
 	color: white;
 	cursor: pointer;
