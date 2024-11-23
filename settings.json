@@ -1,0 +1,7 @@
+{
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.autoStash": true,
+    "git.autoCommit": true,
+    "git.autoCommitDelay": 0
+}
