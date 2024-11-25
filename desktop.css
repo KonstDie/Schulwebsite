@@ -202,3 +202,11 @@ a {
   font-family: "Gluten-Regular";
   src: url("schrift/Gluten-Regular.ttf") format("truetype");
 }
+
+.copy{
+  font-size: 1.5vw;
+  color: #4a90e2;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
