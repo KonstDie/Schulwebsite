@@ -34,7 +34,7 @@ p {
 }
 .link:hover {
   border-radius: 0.75vw;
-  transform: scale(1.2);
+  transform: scale(1.1);
   background-color: #233554;
 }
 
