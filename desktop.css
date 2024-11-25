@@ -169,12 +169,12 @@ a {
   display: block;
   margin: 1vw;
   border-radius: 1vw;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease;
 }
 
 .side-menu a:hover {
   background-color: #444;
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 
 .close-btn {
