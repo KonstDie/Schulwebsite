@@ -222,7 +222,7 @@ footer p{
   font-size: 1.5vw;
 }
 
-.contact .social-media{
+.contact ~ .social-media{
   padding: 2vw;
   padding-left: 3vw;
 }
