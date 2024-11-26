@@ -236,7 +236,7 @@ footer a{
 
 .social-media, .contact{
   text-align: center;
-  display: grid;
-  row-gap: 1vw;
-  line-height: 1vw;
+  display: flex;
+  flex-direction: column;
+  gap:2vh;
 }
