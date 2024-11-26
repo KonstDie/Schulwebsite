@@ -239,4 +239,5 @@ footer a{
     display: grid;
     row-gap: 0.5vw;
     line-height: 1vw;
+    margin-top: -1vw;
 }
