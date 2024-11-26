@@ -239,6 +239,7 @@ footer a{
   text-align: center;
   display: flex;
   row-gap: 0.5vw;
+  padding-top: 2vw;
 }
 
 .social-media h3, .contact h3 {
