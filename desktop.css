@@ -257,3 +257,7 @@ footer a{
 .contact-links p{
   margin-top: 0.5vw;
 }
+
+.top {
+  margin-top: 0;
+}
