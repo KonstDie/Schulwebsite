@@ -3,6 +3,9 @@ body {
   color: #e9ecef;
   font-family: "Gluten-Regular", Arial, sans-serif;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 h1 {
   color: white;
   text-align: center;
