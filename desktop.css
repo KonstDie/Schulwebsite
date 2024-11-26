@@ -225,7 +225,6 @@ footer p{
 .footer-content{
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  background-color: #d8e2ef;
   margin-left: 10vw;
   margin-right:10vw;
   justify-items: center;
