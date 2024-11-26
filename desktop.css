@@ -238,21 +238,8 @@ footer a{
   text-align: center;
 }
 
-.social-media-links{
-  display:grid;
-  grid-template-columns: (1fr,2);
-  margin-top: 0;
-  padding: 0;
-}
-
 .social-media-links a{
   margin-top: 0.5vw;
-}
-
-.contact-links{
-  display:grid;
-  grid-template-columns: (fr,4);
-  gap: 0vw;
 }
 
 .contact-links p{
