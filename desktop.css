@@ -234,7 +234,7 @@ footer a{
   justify-items: center;
   margin-top: 2vw;}
 
-  .social-media {
+  .social-media, .contact {
     text-align: center;
     display: grid;
     row-gap: 0.5vw;
