@@ -239,5 +239,5 @@ footer a{
 }
 
 .social-media-links{
-  display:list-item;
+  display:flex;
 }
