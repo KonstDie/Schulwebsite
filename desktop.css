@@ -246,3 +246,12 @@ footer a{
 .social-media-links a{
 margin-top: 1vw;
 }
+
+.contact-links{
+  display:grid;
+  grid-template-columns: (1fr,2);
+}
+
+.contact-links a{
+margin-top: 1vw;
+}
