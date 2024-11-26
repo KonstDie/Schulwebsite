@@ -227,4 +227,5 @@ footer p{
   grid-template-columns: repeat(2,1fr);
   background-color: #d8e2ef;
   margin-left: 10vw;
+  margin-right:10vw;
 }
