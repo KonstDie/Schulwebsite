@@ -234,10 +234,13 @@ footer a{
   justify-items: center;
   margin-top: 2vw;}
 
-  .social-media, .contact {
+  .social-media {
     text-align: center;
     display: grid;
     row-gap: 0.5vw;
     line-height: 1vw;
+}
+
+.social-media a {
     margin-top: -1vw;
 }
