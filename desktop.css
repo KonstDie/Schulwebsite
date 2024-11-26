@@ -226,4 +226,5 @@ footer p{
   display:grid;
   grid-template-columns: repeat(2,1fr);
   background-color: #d8e2ef;
+  margin-left: 10vw;
 }
