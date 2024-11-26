@@ -203,11 +203,12 @@ a {
   src: url("schrift/Gluten-Regular.ttf") format("truetype");
 }
 
-footer{
+footer {
   color: #4a90e2;
   background-color: #16213e;
   padding-bottom: 0.75vw;
-} 
+  padding-left: 1vw;
+}
 .copy {
   font-size: 1.5vw;
   color: #4a90e2;
@@ -215,21 +216,22 @@ footer{
   margin-top: 2vw;
   cursor: default;
 }
-footer h3{
+footer h3 {
   font-size: 2vw;
 }
-footer p{
+footer p {
   font-size: 1.5vw;
 }
 
-.footer-content{
-  display:grid;
-  grid-template-columns: repeat(2,1fr);
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin-left: 20vw;
-  margin-right:20vw;
+  margin-right: 20vw;
   justify-items: center;
 }
 
-.social-media, .contact{
+.social-media,
+.contact {
   text-align: center;
 }
