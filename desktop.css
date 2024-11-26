@@ -239,7 +239,6 @@ footer a{
   text-align: center;
   display: grid;
   row-gap: 0.5vw;
-  line-height: 1vw;
 }
 
 .social-media h3, .contact h3 {
