@@ -240,3 +240,6 @@ footer a{
     row-gap: 0.5vw;
     line-height: 1vw;
 }
+.social-media a {
+  margin-top: -1vw;
+}
