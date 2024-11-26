@@ -238,5 +238,5 @@ footer a{
   text-align: center;
   display: grid;
   grid-template-columns: repeat(1fr,2);
-  line-height: 2vw;
+  line-height: 1vw;
 }
