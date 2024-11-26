@@ -241,7 +241,7 @@ footer a{
 .social-media-links{
   display:grid;
   grid-template-columns: (1fr,2);
-  
+  margin-top: 0;
 }
 
 .social-media-links a{
