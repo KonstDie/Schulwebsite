@@ -239,5 +239,6 @@ footer a{
 }
 
 .social-media-links{
-  display:flex;
+  display:grid;
+  grid-template-columns: (1fr,2);
 }
