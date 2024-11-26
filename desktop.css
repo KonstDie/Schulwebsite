@@ -222,11 +222,6 @@ footer p{
   font-size: 1.5vw;
 }
 
-.social-media-links{
-  display:grid;
-  align-items: center;
-}
-
 .footer-content{
   background-color: #d8e2ef;
   display: grid;
