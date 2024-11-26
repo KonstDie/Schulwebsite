@@ -223,13 +223,6 @@ footer p{
 }
 
 .footer-content{
-  background-color: #d8e2ef;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  height: 30vw;
-  width: 100vw;
-  left:-20vw;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
 }
