@@ -238,6 +238,6 @@ footer a{
   text-align: center;
 }
 
-.social-media{
-  display:flexbox;
+.social-media-links{
+  display:list-item;
 }
