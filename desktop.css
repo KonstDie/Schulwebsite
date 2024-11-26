@@ -159,6 +159,7 @@ a {
 
 .menu-links {
   padding-top: 60px;
+  display: grid;
 }
 
 .side-menu a {
