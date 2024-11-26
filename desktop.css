@@ -229,4 +229,5 @@ footer p{
 
 .social-media-links{
   display:grid;
+  align-items: center;
 }
