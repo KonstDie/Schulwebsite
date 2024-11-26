@@ -225,8 +225,8 @@ footer p{
 .footer-content{
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  margin-left: 10vw;
-  margin-right:10vw;
+  margin-left: 20vw;
+  margin-right:20vw;
   justify-items: center;
 }
 
