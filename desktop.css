@@ -229,3 +229,7 @@ footer p{
   margin-right:10vw;
   justify-items: center;
 }
+
+.social-media + .contact{
+  text-align: center;
+}
