@@ -182,3 +182,52 @@ a {
   font-family: "Gluten-Regular";
   src: url("schrift/Gluten-Regular.ttf") format("truetype");
 }
+
+footer{
+  color: #4a90e2;
+  background-color: #16213e;
+  padding-bottom: 0.75vw;
+  padding-top: 0.5vw;
+} 
+.copy {
+  font-size: 1.5vw;
+  color: #4a90e2;
+  text-align: center;
+  margin-top: 3vw;
+  cursor: default;
+}
+footer h3{
+  font-size: 2vw;
+}
+footer p{
+  font-size: 1.5vw;
+}
+footer a{
+  color: #4a90e2;
+  font-size: 1.5vw;
+}
+
+.footer-content{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 20vw;
+  margin-right:20vw;
+  margin-top: 3vw;
+  padding-top: 1vw;
+}
+
+.social-media, .contact {
+  text-align: center;
+}
+
+.social-media-links a{
+  margin-top: 0.5vw;
+}
+
+.contact-links p{
+  margin-top: 0.5vw;
+}
+
+.top {
+  margin-top: 0;
+}
