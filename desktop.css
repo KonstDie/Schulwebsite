@@ -175,7 +175,7 @@ a {
   top: 1vw;
   right: 2.5vw;
   font-size: 36px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .logo {
