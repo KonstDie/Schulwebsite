@@ -144,7 +144,6 @@ a {
   position: fixed;
   top: 0;
   left: -20vw;
-  background-color: #16213e;
   transition: 0.3s;
   z-index: 1000;
   border-top-right-radius: 2vw;
