@@ -1,0 +1,65 @@
+body {
+    background-color: #000000ff;
+    color: #ffffffff;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  h2{
+    color: #3c3c4399;
+  }
+
+  .link:hover {
+    background-color: #1c1c1eff;
+  }
+
+  a {
+    color: white;
+  }
+
+  .stichpunkt {
+    background-color: #2c2c2eff;
+  }
+  
+  .AG {
+    background-color:#2c2c2eff;
+  }
+
+  .AG_text {
+    color: #d8e2ef;
+  }
+
+  .row1:hover + .row2 {
+    background-color: #3a3a3cff;
+  }
+
+  .side-menu {
+    background-color: #1c1c1eff;
+  }
+
+  .side-menu a {
+    color: white;
+  }
+  
+  .side-menu a:hover {
+    background-color:#1c1c1eff;
+  }
+  
+  .close-btn {
+    color: white;
+  }
+
+  footer{
+    color: #d8e2ef;
+    background-color: #1c1c1eff;
+  } 
+  .copy {
+    color: #d8e2ef;
+
+  }
+  footer a{
+    color: #d8e2ef;
+  }
+  
