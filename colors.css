@@ -28,7 +28,7 @@ body {
   }
 
   .AG_text {
-    color: #d8e2ef;
+    color: green;
   }
 
   .row1:hover + .row2 {
