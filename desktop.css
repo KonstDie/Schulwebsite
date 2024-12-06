@@ -199,7 +199,7 @@ a {
 footer{
   padding-bottom: 0.75vw;
   padding-top: 0.5vw;
-  display:relative;
+  margin-bottom: 0;
 } 
 .copy {
   font-size: 1.5vw;
