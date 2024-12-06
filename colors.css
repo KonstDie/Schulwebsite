@@ -1,6 +1,6 @@
 body {
-    background-color:red;
-    color: green;
+    background-color: #000000ff;
+    color: #ffffffff;
   }
 
   h1 {
@@ -28,7 +28,7 @@ body {
   }
 
   .AG_text {
-    color: green;
+    color: #d8e2ef;
   }
 
   .row1:hover + .row2 {
